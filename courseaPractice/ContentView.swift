@@ -22,6 +22,7 @@ struct ContentView: View {
             }onDecrement: {
                 stepperValue = (stepperValue == 1) ? 1 : stepperValue - 1
             }
+            Text("A coursera stepper")
             
         }
         .padding()
